@@ -72,7 +72,7 @@ h1, h2, h3 {
   width: 72px;
   height: 10px;
   border-radius: 20px;
-  background: rgba(255,194,103,0.95);
+  background: rgba(255, 255, 255, 0.95);
   margin-top: 12px;
   vertical-align: bottom;
 }
@@ -80,7 +80,7 @@ h1, h2, h3 {
 /* subtitle badge */
 .description-text {
   display: inline-block;
-  background: rgba(255,194,103,0.95);
+  background: rgba(255, 255, 255, 0.95);
   color: #111;
   padding: 8px 14px;
   border-radius: 12px;
@@ -134,19 +134,10 @@ h1, h2, h3 {
   transform: scale(1.03);
 }
 
-/* underline accent */
-.text-underline {
-  margin-top: 8px;
-  background-color: rgb(255, 194, 103);
-  width: 64px;
-  height: 10px;
-  border-radius: 20px;
-}
-
 /* Buttons inside header */
 .info-buttons { width: 100%; display:flex; gap:12px; margin-top:12px; flex-wrap:wrap; }
 .scroll-button {
-  background-color: rgb(255, 194, 103);
+  background-color: rgb(255, 255, 255);
   color: #000;
   font-weight: 700;
   font-size: clamp(12px, 2.4vw, 20px);
@@ -306,7 +297,7 @@ h1, h2, h3 {
   flex-direction:column;
   align-items:center;
   gap:10px;
-  background: white;
+  background: linear-gradient(145deg, #4b4b4b, #0f0f0f);
   border-radius: 15px;
 
   margin-top: auto;
@@ -323,11 +314,13 @@ h1, h2, h3 {
   border-radius: 50%;
   object-fit: cover;
   display:block;
+  box-shadow: 0 3px 8px rgba(255, 255, 255, 0.4);
+  background-color: rgba(24,24,24,0.95);
 
   margin-top: 5px;
 }
 
-.testimonial-headline { font-family: 'Inter'; font-size: 16px; text-align:center; color: rgb(24, 24, 24); }
+.testimonial-headline { font-family: 'Inter'; font-size: 16px; text-align:center; color: rgb(255, 255, 255); }
 
 .contact-headline { font-family: 'Inter'; font-size: 16px; text-align:center; color: rgb(255, 255, 255); }
 
@@ -354,9 +347,8 @@ h1, h2, h3 {
   max-width: 200px;
   padding: 8px;
   box-sizing: border-box;
-
-  
 }
+
 .contact-background .testimonial-pic {
   width: 150px;
   height: 150px;

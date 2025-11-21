@@ -1,24 +1,24 @@
 const portfolioImages = {
     maps: [
         {src: 'maps/dreamscape.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/grassLandsTower.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/mountnoob.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/pixel.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/platform_thing.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/samurai.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/sheriff_lobby.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/ruins.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/shooting_range.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/pixel_world.png', alt: 'profilePic', class: 'map-example-pic'},
     ],
 
     models: [
-        {src: 'models/buildings.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/characters.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/docs.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'models/factory_supplies.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/fishing.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/docs.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'models/mudpatch.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/characters.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/fishing.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'models/pixel_houses.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'models/rocks.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/buildings.png', alt: 'profilePic', class: 'map-example-pic'},
     ],
 
     coding: [
@@ -32,7 +32,7 @@ const videos = [
 
 const buttons = [
     { btn: 'work-button', target: 'section-portfolio' },
-    { btn: 'about-button', target: 'section-about' }
+    { btn: 'contact-button', target: 'section-contact' }
 ];
 
 const portfolioButtons = [
@@ -114,5 +114,4 @@ document.addEventListener("DOMContentLoaded", () => {
       targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
-
 });
