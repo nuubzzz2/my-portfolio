@@ -1,12 +1,12 @@
 const portfolioImages = {
     maps: [
         {src: 'maps/dreamscape.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/mountnoob.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/grassLandstOWER.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/pixel.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/platform_thing.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/samurai.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/sheriff_lobby.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/shooting_range.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/ruins.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/pixel_world.png', alt: 'profilePic', class: 'map-example-pic'},
     ],
 
