@@ -1,7 +1,7 @@
 const portfolioImages = {
     maps: [
         {src: 'maps/dreamscape.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/grassLandstOWER.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/grassLandsTower.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/pixel.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/platform_thing.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/samurai.png', alt: 'profilePic', class: 'map-example-pic'},
@@ -114,4 +114,5 @@ document.addEventListener("DOMContentLoaded", () => {
       targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
+
 });
