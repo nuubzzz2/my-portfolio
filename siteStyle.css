@@ -831,10 +831,13 @@ h1, h2, h3 {
 
 /* Services */
 .about-services {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  width: 100%;
+  display: flex;
+  gap: 18px;
   margin-bottom: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .service {
@@ -846,6 +849,12 @@ h1, h2, h3 {
     transform 0.25s ease,
     box-shadow 0.25s ease,
     border-color 0.25s ease;
+
+  min-width: 330px;
+  max-width: 330px;
+
+  min-height: 210px;
+  max-height: 210px;
 }
 
 .service:hover {
