@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuubzzz's Portfolio</title>
+    <link rel="stylesheet" href="siteStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Poppins:wght@400;600;700&family=Rubik:wght@400;600&family=Space+Grotesk:wght@500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header hero" id="section-home" role="banner" aria-label="Home">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+            <h1 class="intro-text">HI, IM NUUBZZZ
+                <span class="text-underline" aria-hidden="true"></span>
+            </h1>
+
+            <div class="description-text">BUILDER / 3D MODELER</div>
+
+            <div class="info-buttons">
+                <button class="scroll-button work-scroll-button" id="work-button" data-target="#portfolio-section">MY WORK</button>
+                <button class="scroll-button contact-scroll-button" id="contact-button" data-target="#contact-section">CONTACT ME</button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="timeline" aria-label="Page sections">
+        <ul>
+            <li><button type="button" class="timeline-btn" data-target="section-home" aria-label="Home" data-label="Home">
+            <img src="icons/home.png" alt="About" class="icon">
+            </button></li>
+
+            <li><button type="button" class="timeline-btn" data-target="section-about" aria-label="About" data-label="About">
+            <img src="icons/person.png" alt="About" class="icon">
+            </button></li>
+
+            <li><button type="button" class="timeline-btn" data-target="section-games" aria-label="Games" data-label="Games">
+            <img src="icons/controller.png" alt="Games" class="icon">
+            </button></li>
+
+            <li><button type="button" class="timeline-btn" data-target="section-portfolio" aria-label="Work" data-label="Work">
+            <img src="icons/suitcase.png" alt="About" class="icon">
+            </button></li>
+
+            <li><button type="button" class="timeline-btn" data-target="section-testimonials" aria-label="Worked With" data-label="Worked with">
+            <img src="icons/testimonials.png" alt="About" class="icon">
+            </button></li>
+
+            <li><button type="button" class="timeline-btn" data-target="section-contact" aria-label="Contact" data-label="Contact">
+            <img src="icons/contact.png" alt="About" class="icon">
+            </button></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="section-about" class="section-about">
+  <div class="about-container">
+
+    <!-- Header -->
+    <header class="about-header">
+      <h2>What I Do</h2>
+      <p>
+        I specialize in making sure that your games look and perform the best they can!
+      </p>
+    </header>
+
+    <!-- Services -->
+    <div class="about-services">
+      <div class="service">
+        <h3>Map Building</h3>
+        <p>
+          Clean, beautiful visuals and designed with performance in mind.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>3D Modeling</h3>
+        <p>
+          Optimized beautiful stylized assets.
+        </p>
+      </div>
+
+      <div class="service">
+        <h3>Programming</h3>
+        <p>
+          Scalable Lua systems focused on maintainability and long-term growth.
+        </p>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="about-experience">
+      <div class="exp-item">
+        <strong>6+</strong>
+        <span>Years Building</span>
+      </div>
+      <div class="exp-item">
+        <strong>60+</strong>
+        <span>Maps Delivered</span>
+      </div>
+      <div class="exp-item">
+        <strong>40+</strong>
+        <span>Clients Worked With</span>
+      </div>
+      <div class="exp-item">
+        <strong>100%</strong>
+        <span>Self-Taught</span>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="about-tools">
+      <span class="tools-label">What I Use</span>
+      <div class="tools-icons">
+        <img src="icons/blender.png" alt="Blender">
+        <img src="icons/studio.png" alt="Roblox Studio">
+        <img src="icons/lua.png" alt="Lua" class="lua-img">
+        <img src="icons/javascript.png" alt="JavaScript">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+        <section id="section-games" class="section">
+            <div class="games-header">
+                <div class="stat">
+                    <span class="stat-number">238M+</span>
+                    <span class="stat-label">TOTAL VISITS</span>
+                </div>
+            </div>
+
+            <div id="games-track" class="games-track">
+                
+            </div>
+
+            <div class="games-nav">
+                <button id="prevGame" class="nav-btn">‹</button>
+                <button id="nextGame" class="nav-btn">›</button>
+            </div>
+        </section>
+
+        <section id="section-portfolio" class="section">
+            <div class="portfolio">
+                <h1 class="section-text-side">PORTFOLIO</h1>
+
+                <div class="section-section">
+                    <div class="examples-button" id="maps">MAPS</div>
+                    <div class="examples-button" id="models">3D MODELS</div>
+
+                </div>
+                
+                <div class="portfolio-examples" id="portfolio-content">
+                    <img src="maps/mountnoob.png" alt="profilePic" class="map-example-pic">
+                    <img src="maps/dreamscape.png" alt="profilePic" class="map-example-pic">
+                    <img src="maps/pixel.png" alt="profilePic" class="map-example-pic">
+                    <img src="maps/platform_thing.png" alt="profilePic" class="map-example-pic">
+                    <img src="maps/samurai.png" alt="profilePic" class="map-example-pic">
+                    <img src="maps/sheriff_lobby.png" alt="profilePic" class="map-example-pic">
+                    <img src="maps/shooting_range.png" alt="profilePic" class="map-example-pic">
+                    <img src="maps/pixel_world.png" alt="profilePic" class="map-example-pic">
+                </div>
+            </div>
+        </section>
+
+        <section id="section-testimonials" class="section-testimonials">
+  <div class="testimonials-container">
+
+    <h2 class="testimonials-title">Worked With</h2>
+
+    <div class="testimonials-split">
+
+      <!-- STUDIOS -->
+      <div class="testimonial-column">
+        <h3 class="column-title">Studios</h3>
+
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <img src="testimonials/digits.jpg" alt="Studio8K">
+            <span>Studio8K</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="testimonials/tinyInteractive.png" alt="Tiny Interactive">
+            <span>Tiny Interactive</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="testimonials/bladian.jpg" alt="Bladian">
+            <span>Bladian</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="split-divider"></div>
+
+      <!-- CREATORS -->
+      <div class="testimonial-column">
+        <h3 class="column-title">Creators</h3>
+
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <img src="testimonials/evan.jpg" alt="Evan Zir">
+            <span>Evan Zir</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="testimonials/dom.jpg" alt="Dom X">
+            <span>Dom X</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="testimonials/crackop.jpg" alt="Crackop">
+            <span>Crackop</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="testimonials/lifeless.png" alt="L7FELESS">
+            <span>L7FELESS</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="testimonials/jake.jpg" alt="Jake">
+            <span>Jake</span>
+          </div>
+
+          <div class="testimonial-card">
+            <img src="testimonials/alexrealNFT.jpg" alt="AlexrealNFT">
+            <span>AlexrealNFT</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+        <section id="section-contact" class="section">
+            <div class="contact-me">
+                <h1 class="section-text-side">CONTACT ME</h1>
+
+                <h1 class="about-me-depth-text">You dream it, I build it. Lets turn pixels into places. My DMs are open!</h1>
+            
+                <div class="contact-ways">
+                    <div class="contact-background">
+                         <a href="https://www.roblox.com/users/95319415/profile" target="_blank">
+                            <img src="icons/roblox.png" alt="profilePic" class="testimonial-pic">
+                         </a>
+                        <h1 class="contact-headline">@Nuubzzz1</h1>
+                    </div>
+                    <div class="contact-background">
+                        <img src="icons/discord.png" alt="profilePic" class="testimonial-pic">
+                        <h1 class="contact-headline">Nuubzzz</h1>
+                    </div>
+                    <div class="contact-background">
+                        <a href="https://x.com/Nuubzzz" target="_blank">
+                            <img src="icons/twitterbird.png" alt="profilePic" class="testimonial-pic">
+                        </a>
+                        <h1 class="contact-headline">@Nuubzzz</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="function.js"></script>
+</body>
+</html>
