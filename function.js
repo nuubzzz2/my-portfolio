@@ -11,14 +11,14 @@ const portfolioImages = {
     ],
 
     models: [
-        {src: 'models/factory_supplies.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/gojo.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/gojopt2.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/infinity.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/infinitypt2.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/windmill.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/trees.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'models/ruins.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'models/docs.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/mudpatch.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/characters.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/fishing.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/pixel_houses.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/rocks.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'models/buildings.png', alt: 'profilePic', class: 'map-example-pic'},
     ],
 
     coding: [
@@ -272,3 +272,4 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+
