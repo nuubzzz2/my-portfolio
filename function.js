@@ -32,7 +32,7 @@ const games = [
     name: "Parkour Champions",
     thumbnail: "gameThumbnails/parkourChampions.png",
     url: "https://www.roblox.com/games/14528787574/Parkour-Champions#!/about",
-    visits: "2M+"
+    visits: "6.1M+"
   },
 
   {
@@ -40,7 +40,7 @@ const games = [
     name: "Avatar Outfit Creator",
     thumbnail: "gameThumbnails/avatarOutfit.png",
     url: "https://www.roblox.com/games/10810086665/Avatar-Outfit-Creator",
-    visits: "235.1M+"
+    visits: "235.4M+"
   },
 
   {
@@ -272,4 +272,5 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+
 
