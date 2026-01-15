@@ -32,7 +32,7 @@ const games = [
     name: "Parkour Champions",
     thumbnail: "gameThumbnails/parkourChampions.png",
     url: "https://www.roblox.com/games/14528787574/Parkour-Champions#!/about",
-    visits: "6.1M+"
+    visits: "14.2M+"
   },
 
   {
@@ -272,5 +272,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 });
+
 
 
