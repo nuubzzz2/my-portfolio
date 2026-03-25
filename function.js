@@ -2,10 +2,10 @@ const portfolioImages = {
     maps: [
         {src: 'maps/gojo_upscaled_4k.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/infinity_upscaled_4k.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/dreamscape.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/grassLandsTower.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/stylisedBridgeMap.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/stylisedLobby.jfif', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/sheriff_lobby.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/ruins.png', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/dreamscape.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/pixel.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/platform_thing.png', alt: 'profilePic', class: 'map-example-pic'},
     ],
