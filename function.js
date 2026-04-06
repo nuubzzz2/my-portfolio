@@ -4,10 +4,10 @@ const portfolioImages = {
         {src: 'maps/infinity_upscaled_4k.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/stylisedBridgeMap.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/stylisedLobby.jfif', alt: 'profilePic', class: 'map-example-pic'},
+        {src: 'maps/animeThing.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/sheriff_lobby.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/dreamscape.png', alt: 'profilePic', class: 'map-example-pic'},
         {src: 'maps/pixel.png', alt: 'profilePic', class: 'map-example-pic'},
-        {src: 'maps/platform_thing.png', alt: 'profilePic', class: 'map-example-pic'},
     ],
 
     models: [
